@@ -42,13 +42,13 @@ const AboutUs = () => {
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-12 col-lg-6 mb-6 mb-lg-0">
                                     <div className="row align-items-center">
-                                        <div className="col-6">
-                                            <img src="./images/about/10.jpg" className="img-fluid rounded shadow-lg" alt="..." />
+                                        <div className="col-8 offset-2">
+                                            <img src="./images/study.png" className="img-fluid rounded shadow-lg" alt="..." />
                                         </div>
-                                        <div className="col-6">
-                                            <img src="./images/about/11.jpg" className="img-fluid rounded shadow-lg mb-5" alt="..." />
-                                            {/* <img src="./images/about/13.jpg" className="img-fluid rounded shadow-lg" alt="..." /> */}
-                                        </div>
+                                        {/* <div className="col-6"> */}
+                                        {/* <img src="./images/about/11.jpg" className="img-fluid rounded shadow-lg mb-5" alt="..." /> */}
+                                        {/* <img src="./images/about/13.jpg" className="img-fluid rounded shadow-lg" alt="..." /> */}
+                                        {/* </div> */}
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6 col-xl-5">
@@ -76,7 +76,7 @@ const AboutUs = () => {
                                 <div className="col-12 col-lg-6 col-xl-5">
                                     <div>
                                         <h2 className="mt-3 font-w-5">Hardware Project</h2>
-                                        <p className="lead">Hardware Device that allows people to use Internet by conencting it into the Router during Power Cut-off
+                                        <p className="lead">Hardware Device that allows people to use Internet by connecting it into the Router during Power Cut-off
 .</p>
                                         {/* <p className="mb-0">We use the latest technologies to make it more clear to the people of the community.</p> */}
                                     </div>
