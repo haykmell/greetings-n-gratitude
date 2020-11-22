@@ -583,7 +583,8 @@ const Home = () => {
                                         </div>
                                         <div className="row mt-5">
                                             <div className="col-12 col-sm-6">
-                                                <a className="footer-logo text-white h2 mb-0" href="index.html"> Lanyard<span className="font-weight-bold">UX</span>
+                                                <a className="footer-logo text-white h2 mb-0" href="index.html"> Greetings and Gratitude
+<span className="font-weight-bold">UX</span>
                                                 </a>
                                             </div>
                                             <div className="col-12 col-sm-6 mt-6 mt-sm-0">
@@ -605,7 +606,8 @@ const Home = () => {
                                 </div>
                                 <div className="row text-white text-center mt-8">
                                     <div className="col">
-                                        <hr className="mb-8" />Copyright <u><a className="text-white" href="/">Lanyard</a></u> | All Rights
+                                        <hr className="mb-8" />Copyright <u><a className="text-white" href="/">Greetings and Gratitude
+</a></u> | All Rights
                   Reserved</div>
                                 </div>
                             </div>
