@@ -20,6 +20,8 @@ const Contact = () => {
                 console.log(error.text);
             });
         e.target.reset();
+
+        alert('Thank you for you message.\nWe will reply to message soon as possible.')
     }
 
 
@@ -44,7 +46,7 @@ const Contact = () => {
                                 <h1>Contact Us</h1>
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
-                                        <li className="breadcrumb-item"><a className="text-dark" href="#">Home</a>
+                                        <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
                                         </li>
                                         <li className="breadcrumb-item active text-primary" aria-current="page">Contact Us</li>
                                     </ol>
