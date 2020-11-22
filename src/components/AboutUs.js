@@ -22,7 +22,7 @@ const AboutUs = () => {
                                 <h1>About Us</h1>
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
-                                        <li className="breadcrumb-item"><a className="text-dark" href="#">Home</a>
+                                        <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
                                         </li>
                                         <li className="breadcrumb-item active text-primary" aria-current="page">About Us</li>
                                     </ol>
@@ -264,13 +264,13 @@ const AboutUs = () => {
                                             <h6 className="mb-1">Vinit Saw</h6>
                                             <small className="text-muted mb-3 d-block">Manager</small>
                                             <ul className="list-inline mb-0">
-                                                <li className="list-inline-item"><a className="text-muted" href="#"><i className="la la-facebook h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-dribbble h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-dribbble h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-twitter h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-twitter h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-linkedin h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-linkedin h4" /></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -285,13 +285,13 @@ const AboutUs = () => {
                                             <h6 className="mb-1">Nina Loe</h6>
                                             <small className="text-muted mb-3 d-block">Ceo</small>
                                             <ul className="list-inline mb-0">
-                                                <li className="list-inline-item"><a className="text-muted" href="#"><i className="la la-facebook h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-dribbble h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-dribbble h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-twitter h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-twitter h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-linkedin h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-linkedin h4" /></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -306,13 +306,13 @@ const AboutUs = () => {
                                             <h6 className="mb-1">Renut John</h6>
                                             <small className="text-muted mb-3 d-block">Founder</small>
                                             <ul className="list-inline mb-0">
-                                                <li className="list-inline-item"><a className="text-muted" href="#"><i className="la la-facebook h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-dribbble h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-dribbble h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-twitter h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-twitter h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-linkedin h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-linkedin h4" /></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -327,13 +327,13 @@ const AboutUs = () => {
                                             <h6 className="mb-1">Biton Leeny</h6>
                                             <small className="text-muted mb-3 d-block">Supervisor</small>
                                             <ul className="list-inline mb-0">
-                                                <li className="list-inline-item"><a className="text-muted" href="#"><i className="la la-facebook h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-dribbble h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-dribbble h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-twitter h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-twitter h4" /></a>
                                                 </li>
-                                                <li className="list-inline-item"><a className="text-muted h6" href="#"><i className="la la-linkedin h4" /></a>
+                                                <li className="list-inline-item"><a className="text-muted h6" href="/"><i className="la la-linkedin h4" /></a>
                                                 </li>
                                             </ul>
                                         </div>
