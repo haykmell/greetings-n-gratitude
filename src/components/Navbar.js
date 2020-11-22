@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route
+    BrowserRouter as Router
 } from "react-router-dom";
 
 const Navbar = () => {

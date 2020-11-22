@@ -41,7 +41,7 @@ const Home = () => {
                                         {/* Text */}
                                         <p className="lead text-light">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap
                     components.</p>
-                                        {/* Buttons */} <a href="#" className="btn btn-outline-light mr-1">
+                                        {/* Buttons */} <a href="/" className="btn btn-outline-light mr-1">
                                             Learn More
                   </a>
                                         <a href="http://vimeo.com/99025203" className="btn text-white popup-vimeo"> <i className="la la-play-circle mr-1 ic-3x align-middle line-h-0" /> Watch Video</a>
@@ -106,7 +106,7 @@ const Home = () => {
                                 <div className="container">
                                     <div className="row align-items-center justify-content-between">
                                         <div className="col-12 col-lg-6 mb-8 mb-lg-0">
-                                            <img src="./images/about/03.png" alt="Image" className="img-fluid" />
+                                            <img src="./images/about/03.png" alt="someImg" className="img-fluid" />
                                         </div>
                                         <div className="col-12 col-lg-6 col-xl-5">
                                             <div> <span className="badge badge-primary-soft p-2">
@@ -115,7 +115,7 @@ const Home = () => {
                                                 <h2 className="mt-3">We're A Creative Software Landing Page</h2>
                                                 <p className="lead mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium,
                         totam rem aperiam.</p>
-                                            </div> <a href="#" className="btn btn-outline-primary mt-5">
+                                            </div> <a href="/" className="btn btn-outline-primary mt-5">
                                                 Learn More
                     </a>
                                         </div>
@@ -179,7 +179,7 @@ const Home = () => {
                                                 <h2 className="mt-3">We Have Experience Website building With Bootstrap</h2>
                                                 <p className="lead mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium,
                         totam rem aperiam.</p>
-                                            </div> <a href="#" className="btn btn-outline-primary mt-5">
+                                            </div> <a href="/" className="btn btn-outline-primary mt-5">
                                                 Learn More
                     </a>
                                         </div>
@@ -210,7 +210,7 @@ const Home = () => {
                                                 <div className="item">
                                                     <div className="card p-5 p-lg-8 bg-primary-soft border-0">
                                                         <div>
-                                                            <img alt="Image" src="./images/testimonial/01.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
+                                                            <img alt="img1" src="./images/testimonial/01.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
                                                         </div>
                                                         <div className="card-body p-0 mt-5">
                                                             <p className="text-light">Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern
@@ -225,7 +225,7 @@ const Home = () => {
                                                 <div className="item">
                                                     <div className="card p-5 p-lg-8 bg-primary-soft border-0">
                                                         <div>
-                                                            <img alt="Image" src="./images/testimonial/02.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
+                                                            <img alt="img2" src="./images/testimonial/02.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
                                                         </div>
                                                         <div className="card-body p-0 mt-5">
                                                             <p className="text-light">Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern
@@ -240,7 +240,7 @@ const Home = () => {
                                                 <div className="item">
                                                     <div className="card p-5 p-lg-8 bg-primary-soft border-0">
                                                         <div>
-                                                            <img alt="Image" src="./images/testimonial/03.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
+                                                            <img alt="img3" src="./images/testimonial/03.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
                                                         </div>
                                                         <div className="card-body p-0 mt-5">
                                                             <p className="text-light">Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern
@@ -255,7 +255,7 @@ const Home = () => {
                                                 <div className="item">
                                                     <div className="card p-5 p-lg-8 bg-primary-soft border-0">
                                                         <div>
-                                                            <img alt="Image" src="./images/testimonial/02.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
+                                                            <img alt="img4" src="./images/testimonial/02.jpg" className="shadow-primary img-fluid rounded-circle d-inline" />
                                                         </div>
                                                         <div className="card-body p-0 mt-5">
                                                             <p className="text-light">Bootsland Amazing Landing Page All-in-one, clean code, Crative &amp; Modern
@@ -423,7 +423,7 @@ const Home = () => {
                                         </div>
                                         <div className="col-12 col-lg-6 col-xl-5">
                                             <div className="shadow rounded p-5">
-                                                <img className="img-fluid mb-8" src="./images/about/04.png" alt="Image" />
+                                                <img className="img-fluid mb-8" src="./images/about/04.png" alt="img5" />
                                                 <form className="row" id="contact-form" method="post" action="http://themeht.com/bootsland/html/php/contact.php">
                                                     <div className="messages" />
                                                     <div className="form-group col-sm-6">
@@ -483,7 +483,7 @@ const Home = () => {
                                                         <img src="./images/blog/01.png" className="img-fluid" alt="..." />
                                                     </div>
                                                     <div className="col-md-7">
-                                                        <div className="card-body"> <a className="d-inline-block text-muted mb-2" href="#">Sass</a>
+                                                        <div className="card-body"> <a className="d-inline-block text-muted mb-2" href="/">Sass</a>
                                                             <h2 className="h5 font-weight-medium">
                                                                 Business Perfect Performance landing Page
                             </h2>
@@ -505,7 +505,7 @@ const Home = () => {
                                                         <img src="./images/blog/02.png" className="img-fluid" alt="..." />
                                                     </div>
                                                     <div className="col-md-7">
-                                                        <div className="card-body"> <a className="d-inline-block text-muted mb-2" href="#">Marketing</a>
+                                                        <div className="card-body"> <a className="d-inline-block text-muted mb-2" href="/">Marketing</a>
                                                             <h2 className="h5 font-weight-medium">
                                                                 The most powerfull template that make you.
                             </h2>
@@ -562,11 +562,11 @@ const Home = () => {
                                             <div className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
                                                 <h5 className="mb-4 text-white">Service</h5>
                                                 <ul className="navbar-nav list-unstyled mb-0">
-                                                    <li className="mb-3 nav-item"><a className="nav-link" href="#">Content Writing</a>
+                                                    <li className="mb-3 nav-item"><a className="nav-link" href="/">Content Writing</a>
                                                     </li>
-                                                    <li className="mb-3 nav-item"><a className="nav-link" href="#">Documentation</a>
+                                                    <li className="mb-3 nav-item"><a className="nav-link" href="/">Documentation</a>
                                                     </li>
-                                                    <li className="mb-3 nav-item"><a className="nav-link" href="login.html">Account</a>
+                                                    <li className="mb-3 nav-item"><a className="nav-link" href="/">Account</a>
                                                     </li>
                                                     <li className="nav-item"><a className="nav-link" href="career.html">Careers</a>
                                                     </li>
@@ -579,7 +579,7 @@ const Home = () => {
                                                     </li>
                                                     <li className="mb-3 nav-item"><a className="nav-link" href="privacy-policy.html">Privacy Policy</a>
                                                     </li>
-                                                    <li className="nav-item"><a className="nav-link" href="#">Support</a>
+                                                    <li className="nav-item"><a className="nav-link" href="/">Support</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -591,15 +591,15 @@ const Home = () => {
                                             </div>
                                             <div className="col-12 col-sm-6 mt-6 mt-sm-0">
                                                 <ul className="list-inline mb-0">
-                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-facebook" /></a>
+                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-facebook" /></a>
                                                     </li>
-                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-dribbble" /></a>
+                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-dribbble" /></a>
                                                     </li>
-                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-instagram" /></a>
+                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-instagram" /></a>
                                                     </li>
-                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-twitter" /></a>
+                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-twitter" /></a>
                                                     </li>
-                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-linkedin" /></a>
+                                                    <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-linkedin" /></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -608,7 +608,7 @@ const Home = () => {
                                 </div>
                                 <div className="row text-white text-center mt-8">
                                     <div className="col">
-                                        <hr className="mb-8" />Copyright <u><a className="text-white" href="#">Lanyard</a></u> | All Rights
+                                        <hr className="mb-8" />Copyright <u><a className="text-white" href="/">Lanyard</a></u> | All Rights
                   Reserved</div>
                                 </div>
                             </div>
