@@ -36,7 +36,7 @@ const Home = () => {
                                     <div className="col-12 col-lg-7 col-xl-6">
                                         {/* Heading */}
                                         <h1 className="display-4 text-white">
-                                            As we express our gratitude, we must never forget that the highest appreciation is not to utter words but  <span className="font-weight-bold">to live by them.</span>
+                                            Gratitude is the fairest blossom which springs from the   <span className="font-weight-bold">soul.</span>
                                         </h1>
                                         {/* Text */}
                                         <p className="lead text-light"> Enjoy the little things, for one day you may look back and realize they were the big things. - Robert Brault</p>
