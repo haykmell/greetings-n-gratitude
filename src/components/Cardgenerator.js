@@ -63,63 +63,65 @@ const Cardgenerator = () => {
 
     return (
         <>
-            {/*hero section start*/}
-            <section className="position-relative">
-                <div id="particles-js" />
-                <div className="container">
-                    <div className="row  text-center">
-                        <div className="col">
-                            <h1>Card Generator</h1>
-                            <nav aria-label="breadcrumb">
-                                <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
-                                    <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
-                                    </li>
-                                    <li className="breadcrumb-item active text-primary" aria-current="page">Card Generator</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                    {/* / .row */}
-                </div>
-                {/* / .container */}
-            </section>
-            {/*hero section end*/}
-            <div className="back">
-                <form onSubmit={previewCanvas}>
-                    <h3 className={IsAlert ? "alert-danger alert" : 'alert alert-success'}>Please fill-in the form</h3>
-                    <label>Receiver's Name</label>
-                    <input type="text" id="receivers-name" placeholder="Your name..." value={receiversName} onChange={(e) => setReceiversName(e.target.value)} />
-                    <label>Message</label>
-                    <textarea name="message" placeholder="Your message" id="messageInput" value={message} onChange={(e) => setMessage(e.target.value)} maxLength="true" cols="20" rows="5"></textarea>
-                    <label>Sender's Name</label>
-                    <input type="text" id="senders-name" placeholder="Name" value={sendersName} onChange={(e) => setSendersName(e.target.value)} />
-                    <input type="submit" className="submit-btn" value='Submit' />
-                    {/* <label htmlFor="file" className="upload">Upload an Image</label> */}
-                    <br />
-                    {/* <span>Choose one that desrcibes you perfectly</span> */}
-                    {/* <input type="file" id="file" accept="image/*" onchange="loadImage(event)" /> */}
-                </form>
-                {/* <button type="submit" id="preview" onClick={previewCanvas}>Preview</button> */}
-                <div className="container">
-                    <canvas id="result" className="card" ref={canvasRef} >
-                        <header id="head">
-                            <div className="camp">
-                                <h4>Campus Card</h4>
-                                <span>Undergraduate</span>
+            <div className="page-wrapper">
+                {/*hero section start*/}
+                <section className="position-relative">
+                    <div id="particles-js" />
+                    <div className="container">
+                        <div className="row  text-center">
+                            <div className="col">
+                                <h1>Card Generator</h1>
+                                <nav aria-label="breadcrumb">
+                                    <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
+                                        <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
+                                        </li>
+                                        <li className="breadcrumb-item active text-primary" aria-current="page">Card Generator</li>
+                                    </ol>
+                                </nav>
                             </div>
-                            <img src="./lorem.jpg" id="logo" alt='img' />
-                        </header>
-                        <div className="content">
-                            <img src="" id="imgDisplayed" alt="img" />
-                            <ul>
-                                <li id="name" ></li>
-                                <li id="birth"></li>
-                                <li id="fieldYear"></li>
-                                <li>SubN°:<span id="num" /></li>
-                            </ul>
                         </div>
-                    </canvas>
-                    <button id="down" onClick={downloadImage}>Download</button>
+                        {/* / .row */}
+                    </div>
+                    {/* / .container */}
+                </section>
+                {/*hero section end*/}
+                <div className="back">
+                    <form onSubmit={previewCanvas}>
+                        <h3 className={IsAlert ? "alert-danger alert" : 'alert alert-success'}>Please fill-in the form</h3>
+                        <label>Receiver's Name</label>
+                        <input type="text" id="receivers-name" placeholder="Your name..." value={receiversName} onChange={(e) => setReceiversName(e.target.value)} />
+                        <label>Message</label>
+                        <textarea name="message" placeholder="Your message" id="messageInput" value={message} onChange={(e) => setMessage(e.target.value)} maxLength="true" cols="20" rows="5"></textarea>
+                        <label>Sender's Name</label>
+                        <input type="text" id="senders-name" placeholder="Name" value={sendersName} onChange={(e) => setSendersName(e.target.value)} />
+                        <input type="submit" className="submit-btn" value='Submit' />
+                        {/* <label htmlFor="file" className="upload">Upload an Image</label> */}
+                        <br />
+                        {/* <span>Choose one that desrcibes you perfectly</span> */}
+                        {/* <input type="file" id="file" accept="image/*" onchange="loadImage(event)" /> */}
+                    </form>
+                    {/* <button type="submit" id="preview" onClick={previewCanvas}>Preview</button> */}
+                    <div className="container">
+                        <canvas id="result" className="card" ref={canvasRef} >
+                            <header id="head">
+                                <div className="camp">
+                                    <h4>Campus Card</h4>
+                                    <span>Undergraduate</span>
+                                </div>
+                                <img src="./lorem.jpg" id="logo" alt='img' />
+                            </header>
+                            <div className="content">
+                                <img src="" id="imgDisplayed" alt="img" />
+                                <ul>
+                                    <li id="name" ></li>
+                                    <li id="birth"></li>
+                                    <li id="fieldYear"></li>
+                                    <li>SubN°:<span id="num" /></li>
+                                </ul>
+                            </div>
+                        </canvas>
+                        <button id="down" onClick={downloadImage}>Download</button>
+                    </div>
                 </div>
             </div>
         </>
