@@ -1,6 +1,6 @@
-# Lanyard- Greeting 💌💟
+# Lanyard- Greeting 💌 🎈
  
- Greetings and gratitude to all the people of the community. 🙏 A `thank-you` card for all attendees ! 🧧🎈
+ Greetings and gratitude to all the people of the community. 🙏 A  website for community to generate `thank-you` cards, create events and many more for all attendees ! 🧧 💟
 
 # Getting Started with Create React App 💭
 
