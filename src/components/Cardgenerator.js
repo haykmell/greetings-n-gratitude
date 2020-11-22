@@ -63,6 +63,27 @@ const Cardgenerator = () => {
 
     return (
         <>
+            {/*hero section start*/}
+            <section className="position-relative">
+                <div id="particles-js" />
+                <div className="container">
+                    <div className="row  text-center">
+                        <div className="col">
+                            <h1>Card Generator</h1>
+                            <nav aria-label="breadcrumb">
+                                <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
+                                    <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
+                                    </li>
+                                    <li className="breadcrumb-item active text-primary" aria-current="page">Card Generator</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    {/* / .row */}
+                </div>
+                {/* / .container */}
+            </section>
+            {/*hero section end*/}
             <div className="back">
                 <form onSubmit={previewCanvas}>
                     <h3 className={IsAlert ? "alert-danger alert" : 'alert alert-success'}>Please fill-in the form</h3>
