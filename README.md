@@ -1,4 +1,4 @@
-# Lanyard- Greeting 💌 🎈
+# Greetings-n-Gratitude 💌 🎈
  
  Greetings and gratitude to all the people of the community. 🙏 A  website for community to generate `thank-you` cards, create events and many more for all attendees ! 🧧 💟
 
@@ -9,6 +9,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install all the dependencies.
 
 ### `npm start`
 
