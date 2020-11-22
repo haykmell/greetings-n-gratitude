@@ -43,7 +43,7 @@ const Home = () => {
                                         {/* Buttons */} <a href="/" className="btn btn-outline-light mr-1">
                                             Read More
                   </a>
-                                        <a href="#" className="btn text-white popup-vimeo"> <i className="la la-play-circle mr-1 ic-3x align-middle line-h-0" /> Watch Video</a>
+                                        <a href="/" className="btn text-white popup-vimeo"> <i className="la la-play-circle mr-1 ic-3x align-middle line-h-0" /> Watch Video</a>
                                     </div>
                                 </div>
                                 {/* / .row */}

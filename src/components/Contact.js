@@ -193,13 +193,13 @@ const Contact = () => {
                                     </div>
                                     <div className="col-12 col-sm-6 mt-6 mt-sm-0">
                                         <ul className="list-inline mb-0">
-                                            <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-facebook" /></a>
+                                            <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-facebook" /></a>
                                             </li>
-                                            <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-instagram" /></a>
+                                            <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-instagram" /></a>
                                             </li>
-                                            <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-twitter" /></a>
+                                            <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-twitter" /></a>
                                             </li>
-                                            <li className="list-inline-item"><a className="text-light ic-2x" href="#"><i className="la la-linkedin" /></a>
+                                            <li className="list-inline-item"><a className="text-light ic-2x" href="/"><i className="la la-linkedin" /></a>
                                             </li>
                                         </ul>
                                     </div>
