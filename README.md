@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Lanyard- Greeting 💌💟
+ 
+ Greetings and gratitude to all the people of the community. 🙏 A `thank-you` card for all attendees ! 🧧🎈
+
+# Getting Started with Create React App 💭
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
