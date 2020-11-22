@@ -30,7 +30,7 @@ const Cardgenerator = () => {
 
     function previewCanvas(e) {
         e.preventDefault();
-        if (receiversName === '' || message === '', sendersName === '') {
+        if (receiversName === '' || message === '' || sendersName === '') {
             setIsAlert(true)
         }
         else {
