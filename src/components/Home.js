@@ -36,15 +36,14 @@ const Home = () => {
                                     <div className="col-12 col-lg-7 col-xl-6">
                                         {/* Heading */}
                                         <h1 className="display-4 text-white">
-                                            Change the way you build websites With <span className="font-weight-bold">Business</span>
+                                            As we express our gratitude, we must never forget that the highest appreciation is not to utter words but  <span className="font-weight-bold">to live by them.</span>
                                         </h1>
                                         {/* Text */}
-                                        <p className="lead text-light">Build a Beautiful, Clean &amp; Modern Design website with flexible Bootstrap
-                    components.</p>
+                                        <p className="lead text-light"> Enjoy the little things, for one day you may look back and realize they were the big things. - Robert Brault</p>
                                         {/* Buttons */} <a href="/" className="btn btn-outline-light mr-1">
-                                            Learn More
+                                            Read More
                   </a>
-                                        <a href="http://vimeo.com/99025203" className="btn text-white popup-vimeo"> <i className="la la-play-circle mr-1 ic-3x align-middle line-h-0" /> Watch Video</a>
+                                        <a href="#" className="btn text-white popup-vimeo"> <i className="la la-play-circle mr-1 ic-3x align-middle line-h-0" /> Watch Video</a>
                                     </div>
                                 </div>
                                 {/* / .row */}
@@ -112,12 +111,10 @@ const Home = () => {
                                             <div> <span className="badge badge-primary-soft p-2">
                                                 <i className="la la-exclamation ic-3x rotation" />
                                             </span>
-                                                <h2 className="mt-3">We're A Creative Software Landing Page</h2>
-                                                <p className="lead mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam.</p>
+                                                <h2 className="mt-3">Not what we say about our blessings, but how we use them, is the real measure of our thanksgiving.</h2>
+                                                <p className="lead mb-0">We must find time to stop and thank the people who make a difference in our lives.It’s so easy to get caught up in our busy lives. From New Years resolutions to spring cleaning, and summer vacations to the holidays— life can come and go as quickly as the seasons. That’s why it’s so important to pause, reflect, and feel gratitude for all the blessings we have in our lives.</p>
                                             </div> <a href="/" className="btn btn-outline-primary mt-5">
-                                                Learn More
-                    </a>
+                                                Read More </a>
                                         </div>
                                     </div>
                                 </div>
