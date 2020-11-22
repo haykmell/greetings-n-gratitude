@@ -2,6 +2,7 @@ import CreateEvent from './components/CreateEvent'
 import Navbar from './components/Navbar'
 import Cardgenerator from './components/Cardgenerator'
 import Home from './components/Home'
+import Contact from './components/Contact'
 
 import {
   BrowserRouter as Router,
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/card-generator">
           <Cardgenerator />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/">
           <Home />

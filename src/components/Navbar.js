@@ -28,7 +28,7 @@ const Navbar = () => {
                                             </li>
                                             <li className="nav-item dropdown"> <a href="/card-generator">Card Generator</a>
                                             </li>
-                                            <li className="nav-item dropdown"> <a href="contact.html">Contact Us</a>
+                                            <li className="nav-item dropdown"> <a href="/contact">Contact Us</a>
                                             </li>
                                         </ul>
                                     </div>
