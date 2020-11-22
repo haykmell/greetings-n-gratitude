@@ -103,6 +103,21 @@ const Contact = () => {
                         </div>
                     </section>
                 </div>
+                <footer className="py-11 bg-primary position-relative mt-5" data-bg-img="./images/bg/03.png">
+                    <div className="shape-1" style={{ height: '150px', overflow: 'hidden' }}>
+                        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
+                            <path d="M0.00,49.98 C150.00,150.00 271.49,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style={{ stroke: 'none', fill: '#fff' }} />
+                        </svg>
+                    </div>
+                    <div className="container mt-11">
+                        <div className="row text-white text-center mt-8">
+                            <div className="col">
+                                <hr className="mb-8" />Copyright <u><a className="text-white" href="/">Greetings and Gratitude
+</a></u> | All Rights
+Reserved</div>
+                        </div>
+                    </div>
+                </footer>
                 {/*body content end*/}
             </div>
             {/* page wrapper end */}

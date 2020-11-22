@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Cardgenerator from './components/Cardgenerator'
 import Home from './components/Home'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
 
 import {
   BrowserRouter as Router,
@@ -30,7 +29,6 @@ function App() {
           <Home />
         </Route>
       </Switch>
-      <Footer />
 
     </Router>
 
