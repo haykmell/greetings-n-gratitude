@@ -24,7 +24,7 @@ const AboutUs = () => {
                                     <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
                                         <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
                                         </li>
-                                        <li className="breadcrumb-item active text-primary" aria-current="page">About Us</li>
+                                        <li className="breadcrumb-item active text-primary" aria-current="page">Projects Showcase</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -55,110 +55,16 @@ const AboutUs = () => {
                                     <div> <span className="badge badge-primary-soft p-2 font-w-6">
                                         About Business
                       </span>
-                                        <h2 className="mt-3 font-w-5">Bootsland Small Tean Crafting Beautiful Experience</h2>
-                                        <p className="lead">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam
-                        rem aperiam.</p>
-                                        <p className="mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam
-                        rem aperiam.</p>
+                                        <h2 className="mt-3 font-w-5">Community Service Projects</h2>
+                                        <p className="lead">As a token of appreciation to the community these project showcase will provide information about the projects made for the people of community.</p>
+                                        <p className="mb-0">We use the latest technologies to make it more clear to the people of the community.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     {/*about end*/}
-                    {/*counter start*/}
-                    <section>
-                        <div className="container">
-                            <div className="row align-items-center justify-content-between">
-                                <div className="col-12 col-lg-6 col-xl-5">
-                                    <div id="accordion" className="accordion">
-                                        <div className="card border-0 active mb-2">
-                                            <div className="card-header border mb-0 bg-transparent">
-                                                <h6 className="mb-0">
-                                                    <a className="text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">When our power of choice Business ?</a>
-                                                </h6>
-                                            </div>
-                                            <div id="collapse1" className="collapse show" data-parent="#accordion">
-                                                <div className="card-body text-muted">Looked up one of the more obscure Latin words, consectetur, from a
-                                                Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered
-                                                Many desktop publishing packages and web page editors now use Nor again is there anyone who loves
-                            or pursues or desires to obtain pain of itself.</div>
-                                            </div>
-                                        </div>
-                                        <div className="card border-0 mb-2">
-                                            <div className="card-header border mb-0 bg-transparent">
-                                                <h6 className="mb-0">
-                                                    <a className="text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Nam libero
-                              tempore, cum soluta nobis ?</a>
-                                                </h6>
-                                            </div>
-                                            <div id="collapse2" className="collapse" data-parent="#accordion">
-                                                <div className="card-body text-muted">Looked up one of the more obscure Latin words, consectetur, from a
-                                                Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered
-                                                Many desktop publishing packages and web page editors now use Nor again is there anyone who loves
-                            or pursues or desires to obtain pain of itself.</div>
-                                            </div>
-                                        </div>
-                                        <div className="card border-0">
-                                            <div className="card-header border mb-0 bg-transparent">
-                                                <h6 className="mb-0">
-                                                    <a className="text-dark" data-toggle="collapse" data-parent="#accordion" href="#collapse3">which is
-                              the same as saying through ?</a>
-                                                </h6>
-                                            </div>
-                                            <div id="collapse3" className="collapse" data-parent="#accordion">
-                                                <div className="card-body text-muted">Looked up one of the more obscure Latin words, consectetur, from a
-                                                Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered
-                                                Many desktop publishing packages and web page editors now use Nor again is there anyone who loves
-                            or pursues or desires to obtain pain of itself.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-lg-6 mb-8 mb-lg-0">
-                                    <div className="row text-center">
-                                        <div className="col-lg-6 col-md-6">
-                                            <div className="counter bg-primary rounded p-5 shadow">
-                                                <div className="counter-desc text-white">
-                                                    <h5>Project</h5>
-                                                    <span className="count-number display-4" data-to={234} data-speed={10000}>234</span>
-                                                    <span className="display-4">k</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 mt-5">
-                                            <div className="counter bg-white rounded p-5 shadow">
-                                                <div className="counter-desc">
-                                                    <h5>Member</h5>
-                                                    <span className="count-number display-4 text-primary" data-to={455} data-speed={10000}>455</span>
-                                                    <span className="display-4 text-primary">k</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 mt-5 mt-md-0">
-                                            <div className="counter bg-white rounded p-5 shadow">
-                                                <div className="counter-desc">
-                                                    <h5>Love Us</h5>
-                                                    <span className="count-number display-4 text-primary" data-to={365} data-speed={10000}>365</span>
-                                                    <span className="display-4 text-primary">k</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 mt-5">
-                                            <div className="counter bg-orange rounded p-5 shadow">
-                                                <div className="counter-desc text-white">
-                                                    <h5>Happy Client</h5>
-                                                    <span className="count-number display-4" data-to={528} data-speed={10000}>528</span>
-                                                    <span className="display-4">k</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/*counter end*/}
+                    
                     {/*services start*/}
                     <section className="custom-pt-1 custom-pb-2 bg-dark position-relative" data-bg-img="./images/bg/02.png">
                         <div className="container">
@@ -247,9 +153,8 @@ const AboutUs = () => {
                                     <div className="mb-8"> <span className="badge badge-primary-soft p-2 font-w-6">
                                         Business Team
                       </span>
-                                        <h2 className="mt-3">Meet Our Team Of Expert</h2>
-                                        <p className="lead mb-0">All types of businesses need access to development resources, so we give you the
-                        option to decide how much you need to use.</p>
+                                        <h2 className="mt-3">Meet Our Team </h2>
+                                        <p className="lead mb-0">We have build this together with utmost determination and teamwork.</p>
                                     </div>
                                 </div>
                             </div>
@@ -261,7 +166,7 @@ const AboutUs = () => {
                                             <img className="img-fluid rounded-top" src="./images/team/01.png" alt="" />
                                         </div>
                                         <div>
-                                            <h6 className="mb-1">Vinit Saw</h6>
+                                            <h6 className="mb-1">Hayk</h6>
                                             <small className="text-muted mb-3 d-block">Manager</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
@@ -282,7 +187,7 @@ const AboutUs = () => {
                                             <img className="img-fluid rounded-top" src="./images/team/02.png" alt="" />
                                         </div>
                                         <div>
-                                            <h6 className="mb-1">Nina Loe</h6>
+                                            <h6 className="mb-1">Harshita Raj</h6>
                                             <small className="text-muted mb-3 d-block">Ceo</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
@@ -303,7 +208,7 @@ const AboutUs = () => {
                                             <img className="img-fluid rounded-top" src="./images/team/03.png" alt="" />
                                         </div>
                                         <div>
-                                            <h6 className="mb-1">Renut John</h6>
+                                            <h6 className="mb-1">Naseeb Dangi</h6>
                                             <small className="text-muted mb-3 d-block">Founder</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
@@ -324,7 +229,7 @@ const AboutUs = () => {
                                             <img className="img-fluid rounded-top" src="./images/team/04.png" alt="" />
                                         </div>
                                         <div>
-                                            <h6 className="mb-1">Biton Leeny</h6>
+                                            <h6 className="mb-1">Chayan Chawra</h6>
                                             <small className="text-muted mb-3 d-block">Supervisor</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
@@ -343,70 +248,7 @@ const AboutUs = () => {
                         </div>
                     </section>
                     {/*team end*/}
-                    {/*client start*/}
-                    <section className="text-center">
-                        <div className="container">
-                            <div className="row justify-content-center text-center">
-                                <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
-                                    <div className="mb-8"> <span className="badge badge-primary-soft p-2 font-w-6">
-                                        Brand Logo
-                      </span>
-                                        <h2 className="mt-3">Market leaders use app to nrich their brand &amp; business.</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/07.png" alt="" />
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/08.png" alt="" />
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/09.png" alt="" />
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/10.png" alt="" />
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/11.png" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row mt-5">
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/12.png" alt="" />
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/08.png" alt="" />
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/09.png" alt="" />
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="clients-logo">
-                                        <img className="img-fluid" src="./images/client/10.png" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/*client end*/}
+                    
                 </div>
                 {/*body content end*/}
                 {/*footer start*/}
