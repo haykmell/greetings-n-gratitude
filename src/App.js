@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Cardgenerator from './components/Cardgenerator'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import Aboutus from './components/AboutUs'
 
 import {
   BrowserRouter as Router,
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/card-generator">
           <Cardgenerator />
+        </Route>
+        <Route path="/about-us">
+          <Aboutus />
         </Route>
         <Route path="/contact">
           <Contact />

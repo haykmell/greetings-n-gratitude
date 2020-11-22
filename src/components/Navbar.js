@@ -28,6 +28,8 @@ const Navbar = () => {
                                             </li>
                                             <li className="nav-item dropdown"> <a href="/card-generator">Card Generator</a>
                                             </li>
+                                            <li className="nav-item dropdown"> <a href="/about-us">About Us</a>
+                                            </li>
                                             <li className="nav-item dropdown"> <a href="/contact">Contact Us</a>
                                             </li>
                                         </ul>
