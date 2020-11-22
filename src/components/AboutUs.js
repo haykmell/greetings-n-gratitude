@@ -19,7 +19,7 @@ const AboutUs = () => {
                     <div className="container">
                         <div className="row  text-center">
                             <div className="col">
-                                <h1>Project Showcase</h1>
+                                <h1>About Us</h1>
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
                                         <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
@@ -52,7 +52,9 @@ const AboutUs = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6 col-xl-5">
-                                    <div>
+                                    <div> <span className="badge badge-primary-soft p-2 font-w-6">
+                                        About Business
+                      </span>
                                         <h2 className="mt-3 font-w-5">Community Service Projects</h2>
                                         <p className="lead">As a token of appreciation to the community these project showcase will provide information about the projects made for the people of community.</p>
                                         <p className="mb-0">We use the latest technologies to make it more clear to the people of the community.</p>
@@ -62,14 +64,95 @@ const AboutUs = () => {
                         </div>
                     </section>
                     {/*about end*/}
-                    
-                    
+
+                    {/*services start*/}
+                    <section className="custom-pt-1 custom-pb-2 bg-dark position-relative" data-bg-img="./images/bg/02.png">
+                        <div className="container">
+                            <div className="row align-items-end">
+                                <div className="col-lg-4 col-md-6 mb-8 mb-lg-0 text-white">
+                                    <div> <span className="badge badge-primary-soft p-2 font-w-6 text-white">
+                                        Business Services
+                      </span>
+                                        <h2 className="mt-3 mb-0">One Platform, Deep Insight Why Choose Business</h2>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="bg-primary-soft rounded p-5">
+                                        <div className="d-flex align-items-center mb-4">
+                                            <div className="mr-3">
+                                                <img className="img-fluid" src="./images/icon/01.svg" alt="" />
+                                            </div>
+                                            <h5 className="m-0 text-light">App Development</h5>
+                                        </div>
+                                        <p className="mb-0">Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 mt-6 mt-md-0">
+                                    <div className="bg-primary-soft rounded p-5">
+                                        <div className="d-flex align-items-center mb-4">
+                                            <div className="mr-3">
+                                                <img className="img-fluid" src="./images/icon/02.svg" alt="" />
+                                            </div>
+                                            <h5 className="m-0 text-light">Clean Code</h5>
+                                        </div>
+                                        <p className="mb-0">Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 mt-6">
+                                    <div className="bg-primary-soft rounded p-5">
+                                        <div className="d-flex align-items-center mb-4">
+                                            <div className="mr-3">
+                                                <img className="img-fluid" src="./images/icon/03.svg" alt="" />
+                                            </div>
+                                            <h5 className="m-0 text-light">Software Development</h5>
+                                        </div>
+                                        <p className="mb-0">Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 mt-6">
+                                    <div className="bg-primary-soft rounded p-5">
+                                        <div className="d-flex align-items-center mb-4">
+                                            <div className="mr-3">
+                                                <img className="img-fluid" src="./images/icon/04.svg" alt="" />
+                                            </div>
+                                            <h5 className="m-0 text-light">Easy to customize</h5>
+                                        </div>
+                                        <p className="mb-0">Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 mt-6">
+                                    <div className="bg-primary-soft rounded p-5">
+                                        <div className="d-flex align-items-center mb-4">
+                                            <div className="mr-3">
+                                                <img className="img-fluid" src="./images/icon/05.svg" alt="" />
+                                            </div>
+                                            <h5 className="m-0 text-light">24/7 Support</h5>
+                                        </div>
+                                        <p className="mb-0">Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="shape-1" style={{ height: '150px', overflow: 'hidden' }}>
+                            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
+                                <path d="M0.00,49.98 C150.00,150.00 271.49,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style={{ stroke: 'none', fill: '#fff' }} />
+                            </svg>
+                        </div>
+                        <div className="shape-1 bottom" style={{ height: '200px', overflow: 'hidden' }}>
+                            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
+                                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style={{ stroke: 'none', fill: '#fff' }} />
+                            </svg>
+                        </div>
+                    </section>
+                    {/*services end*/}
                     {/*team start*/}
                     <section className="pt-0">
                         <div className="container">
                             <div className="row justify-content-center text-center">
                                 <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
-                                   
+                                    <div className="mb-8"> <span className="badge badge-primary-soft p-2 font-w-6">
+                                        Business Team
+                      </span>
                                         <h2 className="mt-3">Meet Our Team </h2>
                                         <p className="lead mb-0">We have build this together with utmost determination and teamwork.</p>
                                     </div>
@@ -84,7 +167,7 @@ const AboutUs = () => {
                                         </div>
                                         <div>
                                             <h6 className="mb-1">Hayk</h6>
-                                            <small className="text-muted mb-3 d-block">Developer</small>
+                                            <small className="text-muted mb-3 d-block">Manager</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
@@ -105,7 +188,7 @@ const AboutUs = () => {
                                         </div>
                                         <div>
                                             <h6 className="mb-1">Harshita Raj</h6>
-                                            <small className="text-muted mb-3 d-block">Developer</small>
+                                            <small className="text-muted mb-3 d-block">Ceo</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
@@ -126,7 +209,7 @@ const AboutUs = () => {
                                         </div>
                                         <div>
                                             <h6 className="mb-1">Naseeb Dangi</h6>
-                                            <small className="text-muted mb-3 d-block">Developer</small>
+                                            <small className="text-muted mb-3 d-block">Founder</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
@@ -143,11 +226,11 @@ const AboutUs = () => {
                                 <div className="col-12 col-lg-3 col-md-6">
                                     <div className="text-center hover-translate p-5">
                                         <div className="mb-3">
-                                            <img className="img-fluid rounded-top" src="./images/team/01.png" alt="" />
+                                            <img className="img-fluid rounded-top" src="./images/team/04.png" alt="" />
                                         </div>
                                         <div>
                                             <h6 className="mb-1">Chayan Chawra</h6>
-                                            <small className="text-muted mb-3 d-block">Developer</small>
+                                            <small className="text-muted mb-3 d-block">Supervisor</small>
                                             <ul className="list-inline mb-0">
                                                 <li className="list-inline-item"><a className="text-muted" href="/"><i className="la la-facebook h4" /></a>
                                                 </li>
@@ -165,7 +248,7 @@ const AboutUs = () => {
                         </div>
                     </section>
                     {/*team end*/}
-                    
+
                 </div>
                 {/*body content end*/}
                 {/*footer start*/}
