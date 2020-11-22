@@ -64,6 +64,14 @@ const Cardgenerator = () => {
     return (
         <>
             <div className="page-wrapper">
+                {/* preloader start */}
+                <div id="ht-preloader">
+                    <div className="loader clear-loader">
+                        <span />
+                        <p>Greetings and Gratitude</p>
+                    </div>
+                </div>
+                {/* preloader end */}
                 {/*hero section start*/}
                 <section className="position-relative">
                     <div id="particles-js" />
