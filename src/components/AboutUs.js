@@ -52,7 +52,7 @@ const AboutUs = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6 col-xl-5">
-                                    
+                                    <div>
                                         <h2 className="mt-3 font-w-5">Community Service Projects</h2>
                                         <p className="lead">As a token of appreciation to the community these project showcase will provide information about the projects made for the people of community.</p>
                                         <p className="mb-0">We use the latest technologies to make it more clear to the people of the community.</p>
