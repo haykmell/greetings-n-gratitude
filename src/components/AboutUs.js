@@ -47,12 +47,12 @@ const AboutUs = () => {
                                         </div>
                                         <div className="col-6">
                                             <img src="./images/about/11.jpg" className="img-fluid rounded shadow-lg mb-5" alt="..." />
-                                            <img src="./images/about/13.jpg" className="img-fluid rounded shadow-lg" alt="..." />
+                                            {/* <img src="./images/about/13.jpg" className="img-fluid rounded shadow-lg" alt="..." /> */}
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-6 col-xl-5">
-                                    <div> 
+                                    <div>
                                         <h2 className="mt-3 font-w-5">Community Service Projects</h2>
                                         <p className="lead">As a token of appreciation to the community these project showcase will provide information about the projects made for the people of community.</p>
                                         <p className="mb-0">We use the latest technologies to make it more clear to the people of the community.</p>
@@ -63,12 +63,34 @@ const AboutUs = () => {
                     </section>
                     {/*about end*/}
 
+                    <section className="pt-0">
+                        <div className="container">
+                            <div className="row align-items-center justify-content-between">
+                                <div className="col-12 col-lg-6 mb-6 mb-lg-0">
+                                    <div className="row align-items-center">
+                                        <div className="col-6 offset-3">
+                                            <img src="./images/tool.png" className="img-fluid rounded shadow-lg" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-lg-6 col-xl-5">
+                                    <div>
+                                        <h2 className="mt-3 font-w-5">Hardware Project</h2>
+                                        <p className="lead">Hardware Device that allows people to use Internet by conencting it into the Router during Power Cut-off
+.</p>
+                                        {/* <p className="mb-0">We use the latest technologies to make it more clear to the people of the community.</p> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                     {/*team start*/}
                     <section className="pt-0">
                         <div className="container">
                             <div className="row justify-content-center text-center">
                                 <div className="col-12 col-md-12 col-lg-8 mb-8 mb-lg-0">
-                                    <div className="mb-8"> 
+                                    <div className="mb-8">
                                         <h2 className="mt-3">Meet Our Team </h2>
                                         <p className="lead mb-0">We have build this together with utmost determination and teamwork.</p>
                                     </div>
