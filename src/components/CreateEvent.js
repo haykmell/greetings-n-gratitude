@@ -45,7 +45,29 @@ const CreateEvent = () => {
 
     return (
         <>
+            {/*hero section start*/}
+            <section className="position-relative">
+                <div id="particles-js" />
+                <div className="container">
+                    <div className="row  text-center">
+                        <div className="col">
+                            <h1>Create Event</h1>
+                            <nav aria-label="breadcrumb">
+                                <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
+                                    <li className="breadcrumb-item"><a className="text-dark" href="/">Home</a>
+                                    </li>
+                                    <li className="breadcrumb-item active text-primary" aria-current="page">Create Event</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    {/* / .row */}
+                </div>
+                {/* / .container */}
+            </section>
+            {/*hero section end*/}
             <div id="container" className="todo-app">
+
                 <h1>Create Event <FaPlus className="fa-plus" onClick={() => setAddItemIput(!addItemIput)} /></h1>
                 <input type="text" className={addItemIput ? `display-input` : ''} placeholder="Add New Event" onKeyPress={addItemtoList} value={todoInput} onChange={(e) => setTodoInput(e.target.value)} />
                 <ul>
