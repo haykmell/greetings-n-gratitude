@@ -4,7 +4,7 @@ const Home = () => {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        setTimeout(() => setIsLoading(false), 1000)
+        setTimeout(() => setIsLoading(false), 1500)
     }, [])
 
 
@@ -20,7 +20,7 @@ const Home = () => {
                         <div id="ht-preloader" style={isLoading ? { display: "block" } : { display: "none" }}>
                             <div className="loader clear-loader">
                                 <span />
-                                <p>Lanyard</p>
+                                <p>Greetings and Gratitude</p>
                             </div>
                         </div>
                         {/* preloader end */}
