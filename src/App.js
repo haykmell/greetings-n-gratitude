@@ -23,7 +23,7 @@ function App() {
         <Route path="/card-generator">
           <Cardgenerator />
         </Route>
-        <Route path="/about-us">
+        <Route path="/projects">
           <Aboutus />
         </Route>
         <Route path="/contact">
