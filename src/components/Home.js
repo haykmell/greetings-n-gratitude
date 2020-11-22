@@ -1,8 +1,4 @@
-import userEvent from '@testing-library/user-event'
-// import $ from "jquery";
 import React, { useState, useEffect } from 'react'
-// import theme from '../assets/js/theme-script.js'
-// import theme2 from '../assets/js/theme-plugin.js'
 
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true)
