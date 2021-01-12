@@ -15,7 +15,7 @@ const Navbar = () => {
                             {/*menu start*/}
                             <div className="col d-flex align-items-center justify-content-between">
                                 <a className="navbar-brand logo text-dark h2 mb-0" href="/">
-                                    <span className="text-primary font-weight-bold">Greetings and Gratitude</span>
+                                    <span className="text-primary font-weight-bold">Gratitude</span>
                                 </a>
                                 <nav className="navbar navbar-expand-lg navbar-light ml-auto">
                                     <button className="navbar-toggler" onClick={() => setNavToggle(!navToggle)} type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon" />
